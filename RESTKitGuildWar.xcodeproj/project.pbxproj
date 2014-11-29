@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDDB3E951A29EB440036540C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3E941A29EB440036540C /* Foundation.framework */; };
+		EDDB3E971A29EB440036540C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3E961A29EB440036540C /* CoreGraphics.framework */; };
+		EDDB3E991A29EB440036540C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3E981A29EB440036540C /* UIKit.framework */; };
+		EDDB3E9F1A29EB440036540C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDDB3E9D1A29EB440036540C /* InfoPlist.strings */; };
+		EDDB3EA11A29EB440036540C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EA01A29EB440036540C /* main.m */; };
+		EDDB3EA51A29EB440036540C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EA41A29EB440036540C /* AppDelegate.m */; };
+		EDDB3EA81A29EB440036540C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDB3EA61A29EB440036540C /* Main.storyboard */; };
+		EDDB3EAB1A29EB440036540C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EAA1A29EB440036540C /* ViewController.m */; };
+		EDDB3EAD1A29EB450036540C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDB3EAC1A29EB440036540C /* Images.xcassets */; };
+		EDDB3EB41A29EB450036540C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3EB31A29EB450036540C /* XCTest.framework */; };
+		EDDB3EB51A29EB450036540C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3E941A29EB440036540C /* Foundation.framework */; };
+		EDDB3EB61A29EB450036540C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3E981A29EB440036540C /* UIKit.framework */; };
+		EDDB3EBE1A29EB450036540C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDDB3EBC1A29EB450036540C /* InfoPlist.strings */; };
+		EDDB3EC01A29EB450036540C /* RESTKitGuildWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EBF1A29EB450036540C /* RESTKitGuildWarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDDB3EB71A29EB450036540C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDDB3E891A29EB440036540C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDDB3E901A29EB440036540C;
+			remoteInfo = RESTKitGuildWar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDDB3E911A29EB440036540C /* RESTKitGuildWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESTKitGuildWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDB3E941A29EB440036540C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDDB3E961A29EB440036540C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDDB3E981A29EB440036540C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDDB3E9C1A29EB440036540C /* RESTKitGuildWar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RESTKitGuildWar-Info.plist"; sourceTree = "<group>"; };
+		EDDB3E9E1A29EB440036540C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDDB3EA01A29EB440036540C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDDB3EA21A29EB440036540C /* RESTKitGuildWar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RESTKitGuildWar-Prefix.pch"; sourceTree = "<group>"; };
+		EDDB3EA31A29EB440036540C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDDB3EA41A29EB440036540C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDDB3EA71A29EB440036540C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDDB3EA91A29EB440036540C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDDB3EAA1A29EB440036540C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDDB3EAC1A29EB440036540C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDDB3EB21A29EB450036540C /* RESTKitGuildWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESTKitGuildWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDB3EB31A29EB450036540C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EDDB3EBB1A29EB450036540C /* RESTKitGuildWarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RESTKitGuildWarTests-Info.plist"; sourceTree = "<group>"; };
+		EDDB3EBD1A29EB450036540C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDDB3EBF1A29EB450036540C /* RESTKitGuildWarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RESTKitGuildWarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDDB3E8E1A29EB440036540C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB3E971A29EB440036540C /* CoreGraphics.framework in Frameworks */,
+				EDDB3E991A29EB440036540C /* UIKit.framework in Frameworks */,
+				EDDB3E951A29EB440036540C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDB3EAF1A29EB450036540C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB3EB41A29EB450036540C /* XCTest.framework in Frameworks */,
+				EDDB3EB61A29EB450036540C /* UIKit.framework in Frameworks */,
+				EDDB3EB51A29EB450036540C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDDB3E881A29EB440036540C = {
+			isa = PBXGroup;
+			children = (
+				EDDB3E9A1A29EB440036540C /* RESTKitGuildWar */,
+				EDDB3EB91A29EB450036540C /* RESTKitGuildWarTests */,
+				EDDB3E931A29EB440036540C /* Frameworks */,
+				EDDB3E921A29EB440036540C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDDB3E921A29EB440036540C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3E911A29EB440036540C /* RESTKitGuildWar.app */,
+				EDDB3EB21A29EB450036540C /* RESTKitGuildWarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDDB3E931A29EB440036540C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3E941A29EB440036540C /* Foundation.framework */,
+				EDDB3E961A29EB440036540C /* CoreGraphics.framework */,
+				EDDB3E981A29EB440036540C /* UIKit.framework */,
+				EDDB3EB31A29EB450036540C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDDB3E9A1A29EB440036540C /* RESTKitGuildWar */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3EA31A29EB440036540C /* AppDelegate.h */,
+				EDDB3EA41A29EB440036540C /* AppDelegate.m */,
+				EDDB3EA61A29EB440036540C /* Main.storyboard */,
+				EDDB3EA91A29EB440036540C /* ViewController.h */,
+				EDDB3EAA1A29EB440036540C /* ViewController.m */,
+				EDDB3EAC1A29EB440036540C /* Images.xcassets */,
+				EDDB3E9B1A29EB440036540C /* Supporting Files */,
+			);
+			path = RESTKitGuildWar;
+			sourceTree = "<group>";
+		};
+		EDDB3E9B1A29EB440036540C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3E9C1A29EB440036540C /* RESTKitGuildWar-Info.plist */,
+				EDDB3E9D1A29EB440036540C /* InfoPlist.strings */,
+				EDDB3EA01A29EB440036540C /* main.m */,
+				EDDB3EA21A29EB440036540C /* RESTKitGuildWar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDDB3EB91A29EB450036540C /* RESTKitGuildWarTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3EBF1A29EB450036540C /* RESTKitGuildWarTests.m */,
+				EDDB3EBA1A29EB450036540C /* Supporting Files */,
+			);
+			path = RESTKitGuildWarTests;
+			sourceTree = "<group>";
+		};
+		EDDB3EBA1A29EB450036540C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3EBB1A29EB450036540C /* RESTKitGuildWarTests-Info.plist */,
+				EDDB3EBC1A29EB450036540C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDDB3E901A29EB440036540C /* RESTKitGuildWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDB3EC31A29EB450036540C /* Build configuration list for PBXNativeTarget "RESTKitGuildWar" */;
+			buildPhases = (
+				EDDB3E8D1A29EB440036540C /* Sources */,
+				EDDB3E8E1A29EB440036540C /* Frameworks */,
+				EDDB3E8F1A29EB440036540C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESTKitGuildWar;
+			productName = RESTKitGuildWar;
+			productReference = EDDB3E911A29EB440036540C /* RESTKitGuildWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDDB3EB11A29EB450036540C /* RESTKitGuildWarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDB3EC61A29EB450036540C /* Build configuration list for PBXNativeTarget "RESTKitGuildWarTests" */;
+			buildPhases = (
+				EDDB3EAE1A29EB450036540C /* Sources */,
+				EDDB3EAF1A29EB450036540C /* Frameworks */,
+				EDDB3EB01A29EB450036540C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDDB3EB81A29EB450036540C /* PBXTargetDependency */,
+			);
+			name = RESTKitGuildWarTests;
+			productName = RESTKitGuildWarTests;
+			productReference = EDDB3EB21A29EB450036540C /* RESTKitGuildWarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDDB3E891A29EB440036540C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kirill Gorbushko";
+				TargetAttributes = {
+					EDDB3EB11A29EB450036540C = {
+						TestTargetID = EDDB3E901A29EB440036540C;
+					};
+				};
+			};
+			buildConfigurationList = EDDB3E8C1A29EB440036540C /* Build configuration list for PBXProject "RESTKitGuildWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDDB3E881A29EB440036540C;
+			productRefGroup = EDDB3E921A29EB440036540C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDDB3E901A29EB440036540C /* RESTKitGuildWar */,
+				EDDB3EB11A29EB450036540C /* RESTKitGuildWarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDDB3E8F1A29EB440036540C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB3EAD1A29EB450036540C /* Images.xcassets in Resources */,
+				EDDB3E9F1A29EB440036540C /* InfoPlist.strings in Resources */,
+				EDDB3EA81A29EB440036540C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDB3EB01A29EB450036540C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB3EBE1A29EB450036540C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDDB3E8D1A29EB440036540C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB3EAB1A29EB440036540C /* ViewController.m in Sources */,
+				EDDB3EA51A29EB440036540C /* AppDelegate.m in Sources */,
+				EDDB3EA11A29EB440036540C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDB3EAE1A29EB450036540C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB3EC01A29EB450036540C /* RESTKitGuildWarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDDB3EB81A29EB450036540C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDDB3E901A29EB440036540C /* RESTKitGuildWar */;
+			targetProxy = EDDB3EB71A29EB450036540C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDDB3E9D1A29EB440036540C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDDB3E9E1A29EB440036540C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDDB3EA61A29EB440036540C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDDB3EA71A29EB440036540C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDDB3EBC1A29EB450036540C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDDB3EBD1A29EB450036540C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDDB3EC11A29EB450036540C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDDB3EC21A29EB450036540C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDDB3EC41A29EB450036540C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RESTKitGuildWar/RESTKitGuildWar-Prefix.pch";
+				INFOPLIST_FILE = "RESTKitGuildWar/RESTKitGuildWar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDDB3EC51A29EB450036540C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RESTKitGuildWar/RESTKitGuildWar-Prefix.pch";
+				INFOPLIST_FILE = "RESTKitGuildWar/RESTKitGuildWar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EDDB3EC71A29EB450036540C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RESTKitGuildWar.app/RESTKitGuildWar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RESTKitGuildWar/RESTKitGuildWar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RESTKitGuildWarTests/RESTKitGuildWarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EDDB3EC81A29EB450036540C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RESTKitGuildWar.app/RESTKitGuildWar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RESTKitGuildWar/RESTKitGuildWar-Prefix.pch";
+				INFOPLIST_FILE = "RESTKitGuildWarTests/RESTKitGuildWarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDDB3E8C1A29EB440036540C /* Build configuration list for PBXProject "RESTKitGuildWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDB3EC11A29EB450036540C /* Debug */,
+				EDDB3EC21A29EB450036540C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDB3EC31A29EB450036540C /* Build configuration list for PBXNativeTarget "RESTKitGuildWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDB3EC41A29EB450036540C /* Debug */,
+				EDDB3EC51A29EB450036540C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDDB3EC61A29EB450036540C /* Build configuration list for PBXNativeTarget "RESTKitGuildWarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDB3EC71A29EB450036540C /* Debug */,
+				EDDB3EC81A29EB450036540C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDDB3E891A29EB440036540C /* Project object */;
+}
