@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  RESTKitGuildWar
 //
 //  Created by Kirill on 11/29/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
 @end

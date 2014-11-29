@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B431F7462E52774BD2A8F6CF /* libPods-RESTKitGuildWar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E09DF914BC47115AC1E0E1 /* libPods-RESTKitGuildWar.a */; };
 		EDDB3E951A29EB440036540C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3E941A29EB440036540C /* Foundation.framework */; };
 		EDDB3E971A29EB440036540C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3E961A29EB440036540C /* CoreGraphics.framework */; };
 		EDDB3E991A29EB440036540C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3E981A29EB440036540C /* UIKit.framework */; };
@@ -14,13 +15,21 @@
 		EDDB3EA11A29EB440036540C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EA01A29EB440036540C /* main.m */; };
 		EDDB3EA51A29EB440036540C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EA41A29EB440036540C /* AppDelegate.m */; };
 		EDDB3EA81A29EB440036540C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDB3EA61A29EB440036540C /* Main.storyboard */; };
-		EDDB3EAB1A29EB440036540C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EAA1A29EB440036540C /* ViewController.m */; };
 		EDDB3EAD1A29EB450036540C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDB3EAC1A29EB440036540C /* Images.xcassets */; };
 		EDDB3EB41A29EB450036540C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3EB31A29EB450036540C /* XCTest.framework */; };
 		EDDB3EB51A29EB450036540C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3E941A29EB440036540C /* Foundation.framework */; };
 		EDDB3EB61A29EB450036540C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB3E981A29EB440036540C /* UIKit.framework */; };
 		EDDB3EBE1A29EB450036540C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDDB3EBC1A29EB450036540C /* InfoPlist.strings */; };
 		EDDB3EC01A29EB450036540C /* RESTKitGuildWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EBF1A29EB450036540C /* RESTKitGuildWarTests.m */; };
+		EDDB3EE11A29F0830036540C /* ItemRK.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EDE1A29F0830036540C /* ItemRK.m */; };
+		EDDB3EEA1A29F15D0036540C /* AttributeRK.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EE91A29F15D0036540C /* AttributeRK.m */; };
+		EDDB3EED1A29F1B40036540C /* InfixUpgradeRK.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EEC1A29F1B40036540C /* InfixUpgradeRK.m */; };
+		EDDB3EF61A29F21F0036540C /* WeaponRK.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EF51A29F21F0036540C /* WeaponRK.m */; };
+		EDDB3EF91A29F3F60036540C /* MappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EF81A29F3F60036540C /* MappingProvider.m */; };
+		EDDB3EFC1A29FD7B0036540C /* RKBaseObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EFB1A29FD7B0036540C /* RKBaseObjectManager.m */; };
+		EDDB3F001A2A03760036540C /* ItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3EFF1A2A03760036540C /* ItemManager.m */; };
+		EDDB3F041A2A07F40036540C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3F031A2A07F40036540C /* MainViewController.m */; };
+		EDDB3F081A2A0D910036540C /* WeaponManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3F071A2A0D910036540C /* WeaponManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89737796C39227083D97B755 /* Pods-RESTKitGuildWar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESTKitGuildWar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RESTKitGuildWar/Pods-RESTKitGuildWar.debug.xcconfig"; sourceTree = "<group>"; };
+		99E09DF914BC47115AC1E0E1 /* libPods-RESTKitGuildWar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RESTKitGuildWar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23F1FCCCF3A55F94569AAAC /* Pods-RESTKitGuildWar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESTKitGuildWar.release.xcconfig"; path = "Pods/Target Support Files/Pods-RESTKitGuildWar/Pods-RESTKitGuildWar.release.xcconfig"; sourceTree = "<group>"; };
 		EDDB3E911A29EB440036540C /* RESTKitGuildWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESTKitGuildWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDB3E941A29EB440036540C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EDDB3E961A29EB440036540C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +57,31 @@
 		EDDB3EA31A29EB440036540C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDDB3EA41A29EB440036540C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EDDB3EA71A29EB440036540C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDDB3EA91A29EB440036540C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EDDB3EAA1A29EB440036540C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EDDB3EAC1A29EB440036540C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EDDB3EB21A29EB450036540C /* RESTKitGuildWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESTKitGuildWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDB3EB31A29EB450036540C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EDDB3EBB1A29EB450036540C /* RESTKitGuildWarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RESTKitGuildWarTests-Info.plist"; sourceTree = "<group>"; };
 		EDDB3EBD1A29EB450036540C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EDDB3EBF1A29EB450036540C /* RESTKitGuildWarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RESTKitGuildWarTests.m; sourceTree = "<group>"; };
+		EDDB3ECC1A29ECE90036540C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EDDB3EDD1A29F0830036540C /* ItemRK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemRK.h; sourceTree = "<group>"; };
+		EDDB3EDE1A29F0830036540C /* ItemRK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemRK.m; sourceTree = "<group>"; };
+		EDDB3EE81A29F15D0036540C /* AttributeRK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeRK.h; sourceTree = "<group>"; };
+		EDDB3EE91A29F15D0036540C /* AttributeRK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeRK.m; sourceTree = "<group>"; };
+		EDDB3EEB1A29F1B40036540C /* InfixUpgradeRK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfixUpgradeRK.h; sourceTree = "<group>"; };
+		EDDB3EEC1A29F1B40036540C /* InfixUpgradeRK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfixUpgradeRK.m; sourceTree = "<group>"; };
+		EDDB3EF41A29F21F0036540C /* WeaponRK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponRK.h; sourceTree = "<group>"; };
+		EDDB3EF51A29F21F0036540C /* WeaponRK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponRK.m; sourceTree = "<group>"; };
+		EDDB3EF71A29F3F60036540C /* MappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MappingProvider.h; sourceTree = "<group>"; };
+		EDDB3EF81A29F3F60036540C /* MappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MappingProvider.m; sourceTree = "<group>"; };
+		EDDB3EFA1A29FD7B0036540C /* RKBaseObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKBaseObjectManager.h; sourceTree = "<group>"; };
+		EDDB3EFB1A29FD7B0036540C /* RKBaseObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKBaseObjectManager.m; sourceTree = "<group>"; };
+		EDDB3EFE1A2A03760036540C /* ItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemManager.h; sourceTree = "<group>"; };
+		EDDB3EFF1A2A03760036540C /* ItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemManager.m; sourceTree = "<group>"; };
+		EDDB3F021A2A07F40036540C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EDDB3F031A2A07F40036540C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EDDB3F061A2A0D910036540C /* WeaponManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponManager.h; sourceTree = "<group>"; };
+		EDDB3F071A2A0D910036540C /* WeaponManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +92,7 @@
 				EDDB3E971A29EB440036540C /* CoreGraphics.framework in Frameworks */,
 				EDDB3E991A29EB440036540C /* UIKit.framework in Frameworks */,
 				EDDB3E951A29EB440036540C /* Foundation.framework in Frameworks */,
+				B431F7462E52774BD2A8F6CF /* libPods-RESTKitGuildWar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99DFD9CEAD17783E1ADD9308 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89737796C39227083D97B755 /* Pods-RESTKitGuildWar.debug.xcconfig */,
+				C23F1FCCCF3A55F94569AAAC /* Pods-RESTKitGuildWar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EDDB3E881A29EB440036540C = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +125,7 @@
 				EDDB3EB91A29EB450036540C /* RESTKitGuildWarTests */,
 				EDDB3E931A29EB440036540C /* Frameworks */,
 				EDDB3E921A29EB440036540C /* Products */,
+				99DFD9CEAD17783E1ADD9308 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +145,7 @@
 				EDDB3E961A29EB440036540C /* CoreGraphics.framework */,
 				EDDB3E981A29EB440036540C /* UIKit.framework */,
 				EDDB3EB31A29EB450036540C /* XCTest.framework */,
+				99E09DF914BC47115AC1E0E1 /* libPods-RESTKitGuildWar.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +153,10 @@
 		EDDB3E9A1A29EB440036540C /* RESTKitGuildWar */ = {
 			isa = PBXGroup;
 			children = (
+				EDDB3EC91A29ECBA0036540C /* Classes */,
 				EDDB3EA31A29EB440036540C /* AppDelegate.h */,
 				EDDB3EA41A29EB440036540C /* AppDelegate.m */,
 				EDDB3EA61A29EB440036540C /* Main.storyboard */,
-				EDDB3EA91A29EB440036540C /* ViewController.h */,
-				EDDB3EAA1A29EB440036540C /* ViewController.m */,
 				EDDB3EAC1A29EB440036540C /* Images.xcassets */,
 				EDDB3E9B1A29EB440036540C /* Supporting Files */,
 			);
@@ -126,6 +166,7 @@
 		EDDB3E9B1A29EB440036540C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EDDB3ECB1A29ECDB0036540C /* Constants */,
 				EDDB3E9C1A29EB440036540C /* RESTKitGuildWar-Info.plist */,
 				EDDB3E9D1A29EB440036540C /* InfoPlist.strings */,
 				EDDB3EA01A29EB440036540C /* main.m */,
@@ -152,6 +193,151 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EDDB3EC91A29ECBA0036540C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3ED11A29EE130036540C /* Managers */,
+				EDDB3ECD1A29EDD70036540C /* RestKit */,
+				EDDB3ECA1A29ECCE0036540C /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EDDB3ECA1A29ECCE0036540C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3F011A2A07E30036540C /* MainVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EDDB3ECB1A29ECDB0036540C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3ECC1A29ECE90036540C /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EDDB3ECD1A29EDD70036540C /* RestKit */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3ED61A29F0820036540C /* Models */,
+				EDDB3ED01A29EE070036540C /* ResourceManager */,
+				EDDB3ECF1A29EDF50036540C /* Mapping */,
+			);
+			path = RestKit;
+			sourceTree = "<group>";
+		};
+		EDDB3ECF1A29EDF50036540C /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3EF71A29F3F60036540C /* MappingProvider.h */,
+				EDDB3EF81A29F3F60036540C /* MappingProvider.m */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		EDDB3ED01A29EE070036540C /* ResourceManager */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3F051A2A0D760036540C /* WeaponManager */,
+				EDDB3EFD1A2A03560036540C /* ItemManager */,
+			);
+			path = ResourceManager;
+			sourceTree = "<group>";
+		};
+		EDDB3ED11A29EE130036540C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3ED21A29EE1E0036540C /* RestKitManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EDDB3ED21A29EE1E0036540C /* RestKitManager */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3EFA1A29FD7B0036540C /* RKBaseObjectManager.h */,
+				EDDB3EFB1A29FD7B0036540C /* RKBaseObjectManager.m */,
+			);
+			path = RestKitManager;
+			sourceTree = "<group>";
+		};
+		EDDB3ED61A29F0820036540C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3ED71A29F0830036540C /* Attribute */,
+				EDDB3EDA1A29F0830036540C /* InfixUpgrade */,
+				EDDB3EDC1A29F0830036540C /* Item */,
+				EDDB3EE01A29F0830036540C /* Weapon */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDDB3ED71A29F0830036540C /* Attribute */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3EE81A29F15D0036540C /* AttributeRK.h */,
+				EDDB3EE91A29F15D0036540C /* AttributeRK.m */,
+			);
+			path = Attribute;
+			sourceTree = "<group>";
+		};
+		EDDB3EDA1A29F0830036540C /* InfixUpgrade */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3EEB1A29F1B40036540C /* InfixUpgradeRK.h */,
+				EDDB3EEC1A29F1B40036540C /* InfixUpgradeRK.m */,
+			);
+			path = InfixUpgrade;
+			sourceTree = "<group>";
+		};
+		EDDB3EDC1A29F0830036540C /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3EDD1A29F0830036540C /* ItemRK.h */,
+				EDDB3EDE1A29F0830036540C /* ItemRK.m */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		EDDB3EE01A29F0830036540C /* Weapon */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3EF41A29F21F0036540C /* WeaponRK.h */,
+				EDDB3EF51A29F21F0036540C /* WeaponRK.m */,
+			);
+			path = Weapon;
+			sourceTree = "<group>";
+		};
+		EDDB3EFD1A2A03560036540C /* ItemManager */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3EFE1A2A03760036540C /* ItemManager.h */,
+				EDDB3EFF1A2A03760036540C /* ItemManager.m */,
+			);
+			path = ItemManager;
+			sourceTree = "<group>";
+		};
+		EDDB3F011A2A07E30036540C /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3F021A2A07F40036540C /* MainViewController.h */,
+				EDDB3F031A2A07F40036540C /* MainViewController.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		EDDB3F051A2A0D760036540C /* WeaponManager */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB3F061A2A0D910036540C /* WeaponManager.h */,
+				EDDB3F071A2A0D910036540C /* WeaponManager.m */,
+			);
+			path = WeaponManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +345,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDDB3EC31A29EB450036540C /* Build configuration list for PBXNativeTarget "RESTKitGuildWar" */;
 			buildPhases = (
+				0BAB3A071A0439952C80DD5E /* Check Pods Manifest.lock */,
 				EDDB3E8D1A29EB440036540C /* Sources */,
 				EDDB3E8E1A29EB440036540C /* Frameworks */,
 				EDDB3E8F1A29EB440036540C /* Resources */,
+				0420BFCCBC7609631A1EBA7F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,12 +432,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0420BFCCBC7609631A1EBA7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESTKitGuildWar/Pods-RESTKitGuildWar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BAB3A071A0439952C80DD5E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDDB3E8D1A29EB440036540C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDDB3EAB1A29EB440036540C /* ViewController.m in Sources */,
+				EDDB3EF91A29F3F60036540C /* MappingProvider.m in Sources */,
+				EDDB3EED1A29F1B40036540C /* InfixUpgradeRK.m in Sources */,
+				EDDB3EF61A29F21F0036540C /* WeaponRK.m in Sources */,
+				EDDB3F041A2A07F40036540C /* MainViewController.m in Sources */,
+				EDDB3EE11A29F0830036540C /* ItemRK.m in Sources */,
+				EDDB3F001A2A03760036540C /* ItemManager.m in Sources */,
+				EDDB3EFC1A29FD7B0036540C /* RKBaseObjectManager.m in Sources */,
+				EDDB3EEA1A29F15D0036540C /* AttributeRK.m in Sources */,
+				EDDB3F081A2A0D910036540C /* WeaponManager.m in Sources */,
 				EDDB3EA51A29EB440036540C /* AppDelegate.m in Sources */,
 				EDDB3EA11A29EB440036540C /* main.m in Sources */,
 			);
@@ -373,6 +602,7 @@
 		};
 		EDDB3EC41A29EB450036540C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89737796C39227083D97B755 /* Pods-RESTKitGuildWar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +616,7 @@
 		};
 		EDDB3EC51A29EB450036540C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23F1FCCCF3A55F94569AAAC /* Pods-RESTKitGuildWar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +687,7 @@
 				EDDB3EC51A29EB450036540C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDDB3EC61A29EB450036540C /* Build configuration list for PBXNativeTarget "RESTKitGuildWarTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +696,7 @@
 				EDDB3EC81A29EB450036540C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
